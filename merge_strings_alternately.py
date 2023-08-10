@@ -14,9 +14,5 @@ class Solution(object):
         result += word2[i:]
         return result
         
-        
-if __name__ == '__main__':
-    sol = Solution()
-    result = sol.mergeAlternately('abcd', 'pq')
-    print(result)
+
        
